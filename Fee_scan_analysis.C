@@ -28,6 +28,8 @@ class scan {
 bool Fee_scan_analysis()
 {
 
+
+//Input txt file, i.e output from calc_baseline_width/calc_threshold_width_scan.py
     TFile* scan_results = new TFile("BS_D_G1.root", "RECREATE");
 
 
